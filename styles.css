@@ -74,7 +74,7 @@ a:hover {
 .navbar-nav {
   display: flex;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 14px;
   white-space: nowrap;
 }
 
@@ -113,11 +113,11 @@ progress::-moz-progress-bar {
 }
 
 .mt-5 {
-  margin-top: 2.3rem;
+  margin-top: 1.45rem;
 }
 
 .post-header {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .post-title {
@@ -125,7 +125,7 @@ progress::-moz-progress-bar {
   color: var(--global-text-color);
   font-family: "Roboto Slab", Georgia, serif;
   font-size: 2.75rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -177,8 +177,20 @@ article {
 }
 
 .intro-copy {
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.45rem;
   font-size: 1.02rem;
+}
+
+.name-inline {
+  color: var(--global-text-color);
+}
+
+.name-inline:hover {
+  color: var(--global-theme-color);
+}
+
+.clearfix p {
+  margin-bottom: 0.55rem;
 }
 
 hr {
@@ -189,7 +201,7 @@ hr {
 }
 
 h2 {
-  margin: 2.2rem 0 1.05rem;
+  margin: 1.45rem 0 0.65rem;
   color: var(--global-text-color);
   font-family: "Roboto Slab", Georgia, serif;
   font-size: 1.42rem;
@@ -197,7 +209,7 @@ h2 {
 }
 
 .news {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.85rem;
 }
 
 .section-note {
@@ -228,7 +240,7 @@ h2 {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 1.1rem;
-  padding: 0.58rem 0;
+  padding: 0.46rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
