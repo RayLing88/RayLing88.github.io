@@ -113,11 +113,11 @@ progress::-moz-progress-bar {
 }
 
 .mt-5 {
-  margin-top: 1.45rem;
+  margin-top: 1rem;
 }
 
 .post-header {
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.48rem;
 }
 
 .post-title {
@@ -144,8 +144,8 @@ article {
 }
 
 .profile {
-  width: 260px;
-  margin: 0 0 1rem 2rem;
+  width: 210px;
+  margin: 0 0 0.55rem 1.35rem;
 }
 
 .float-right {
@@ -177,8 +177,8 @@ article {
 }
 
 .intro-copy {
-  margin-bottom: 0.45rem;
-  font-size: 1.02rem;
+  margin-bottom: 0.28rem;
+  font-size: 1rem;
 }
 
 .name-inline {
@@ -190,7 +190,7 @@ article {
 }
 
 .clearfix p {
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.2rem;
 }
 
 hr {
@@ -201,7 +201,7 @@ hr {
 }
 
 h2 {
-  margin: 1.45rem 0 0.65rem;
+  margin: 1rem 0 0.42rem;
   color: var(--global-text-color);
   font-family: "Roboto Slab", Georgia, serif;
   font-size: 1.42rem;
@@ -209,7 +209,7 @@ h2 {
 }
 
 .news {
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.58rem;
 }
 
 .section-note {
@@ -239,8 +239,8 @@ h2 {
 .news-item {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
-  gap: 1.1rem;
-  padding: 0.46rem 0;
+  gap: 0.85rem;
+  padding: 0.34rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
