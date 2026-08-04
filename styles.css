@@ -20,8 +20,8 @@ html {
 
 body {
   margin: 0;
-  padding-top: 68px;
-  padding-bottom: 58px;
+  padding-top: 61px;
+  padding-bottom: 54px;
   color: var(--global-text-color);
   background: var(--global-bg-color);
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -113,11 +113,11 @@ progress::-moz-progress-bar {
 }
 
 .mt-5 {
-  margin-top: 1rem;
+  margin-top: 0.28rem;
 }
 
 .post-header {
-  margin-bottom: 0.48rem;
+  margin-bottom: 0.28rem;
 }
 
 .post-title {
@@ -136,7 +136,7 @@ progress::-moz-progress-bar {
 .desc {
   margin: 0;
   color: var(--global-text-color-light);
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 
 article {
@@ -144,8 +144,8 @@ article {
 }
 
 .profile {
-  width: 210px;
-  margin: 0 0 0.55rem 1.35rem;
+  width: 178px;
+  margin: 0 0 0.34rem 1.05rem;
 }
 
 .float-right {
@@ -177,7 +177,7 @@ article {
 }
 
 .intro-copy {
-  margin-bottom: 0.28rem;
+  margin-bottom: 0.18rem;
   font-size: 1rem;
 }
 
@@ -190,7 +190,7 @@ article {
 }
 
 .clearfix p {
-  margin-bottom: 0.2rem;
+  margin: 0 0 0.08rem;
 }
 
 hr {
@@ -201,7 +201,7 @@ hr {
 }
 
 h2 {
-  margin: 1rem 0 0.42rem;
+  margin: 0.78rem 0 0.32rem;
   color: var(--global-text-color);
   font-family: "Roboto Slab", Georgia, serif;
   font-size: 1.42rem;
@@ -209,11 +209,11 @@ h2 {
 }
 
 .news {
-  margin-bottom: 0.58rem;
+  margin-bottom: 0.42rem;
 }
 
 .section-note {
-  margin: -0.35rem 0 1rem;
+  margin: -0.25rem 0 0.72rem;
   color: var(--global-text-color-light);
   font-size: 0.94rem;
 }
@@ -240,7 +240,7 @@ h2 {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 0.85rem;
-  padding: 0.34rem 0;
+  padding: 0.28rem 0;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
@@ -275,7 +275,7 @@ h2 {
 }
 
 .publications {
-  margin-top: 0.5rem;
+  margin-top: 0.32rem;
 }
 
 .bibliography {
@@ -285,7 +285,7 @@ h2 {
 }
 
 .bibliography > li {
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.92rem;
 }
 
 .row {
@@ -362,7 +362,11 @@ h2 {
 }
 
 .code-list .bibliography > li {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.48rem;
+}
+
+#code {
+  margin-top: 0.48rem;
 }
 
 .fixed-bottom {
