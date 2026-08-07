@@ -139,6 +139,13 @@ progress::-moz-progress-bar {
   font-size: 0.98rem;
 }
 
+.contact-line {
+  margin: 0.08rem 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
 article {
   font-weight: 300;
 }
@@ -341,6 +348,12 @@ h2 {
 
 .links {
   margin-top: 0.32rem;
+}
+
+.note-inline {
+  margin-left: 0.45rem;
+  color: var(--global-text-color-light);
+  font-size: 0.84rem;
 }
 
 .btn {
